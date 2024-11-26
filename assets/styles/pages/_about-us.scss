@@ -1,0 +1,78 @@
+.about-us {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: {
+    left: 25px;
+    right: 25px;
+  }
+}
+
+.about-us-left,
+.about-us-right {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+}
+
+.about-us-left-content {
+  position: relative;
+  height: 657.547px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.about-us-left-title {
+  font-family: 'Cragres';
+  font-size: 58px;
+  font-weight: 500;
+  line-height: 0.5517241379310345;
+  text-underline-position: from-font;
+  color: var(--dt-color-blue);
+  margin-bottom: 30px;
+  transform: translateX(-100px);
+  opacity: 0;
+}
+
+.about-us-left-subtitle {
+  font-family: 'AvantGrade';
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 1.336875;
+  color: var(--dt-color-white);
+  margin-bottom: 30px;
+  transform: translateX(-100px);
+  opacity: 0;
+}
+
+.about-us-left-text {
+  font-family: 'AvantGrade';
+  font-size: 24px;
+  line-height: 1.337083333333333;
+  color: var(--dt-color-white);
+  transform: translateX(-100px);
+  opacity: 0;
+}
+
+.about-us-right {
+  align-items: center;
+}
+
+.about-us-right-img {
+  display: block;
+  width: 627.58px;
+  opacity: 0;
+  transform: translateX(100px);
+}
+
+.about-us-left-services {
+  position: absolute;
+  bottom: 0;
+  .btn {
+    transform: translateY(100px);
+    opacity: 0;
+  }
+}

@@ -1,0 +1,25 @@
+.dt-header {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: {
+    top: 25px;
+    left: 25px;
+    right: 25px;
+  }
+  transform: translateY(-100px);
+}
+
+.dt-header-logo {
+  display: block;
+  width: 97px;
+}
+
+.dt-header-btn-menu {
+  margin-left: auto;
+  background-color: transparent;
+  padding: 0;
+  border: 0;
+  cursor: pointer;
+}

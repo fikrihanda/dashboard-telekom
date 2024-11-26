@@ -1,0 +1,36 @@
+.home {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: {
+    left: 25px;
+    right: 25px;
+  }
+}
+
+.home-globe {
+  display: block;
+  width: 552.49px;
+  cursor: pointer;
+  opacity: 0;
+  transform: translateY(100px);
+  margin-bottom: 10px;
+}
+
+.home-title {
+  text-align: center;
+  font-size: 68px;
+  line-height: 0.8;
+  font-family: 'Cragres';
+  color: var(--dt-color-white);
+  opacity: 0;
+  transform: translateY(100px);
+  margin-bottom: 40px;
+}
+
+.home-btn {
+  transform: translateY(100px);
+  opacity: 0;
+}
